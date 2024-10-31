@@ -1,3 +1,10 @@
+@import url('https://fonts.cdnfonts.com/css/nunito-sans');
+
+* {
+    font-family: 'Nunito Sans';
+}
+
+
 header {
     background-color: #444;
     display: flex;
@@ -6,4 +13,12 @@ header {
 
 .push {
     margin-left: auto;
+}
+
+.navbar-brand {
+    color: #EEE;
+}
+
+footer {
+    background-color: #EEE;
 }

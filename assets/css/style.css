@@ -4,7 +4,6 @@
     font-family: 'Nunito Sans';
 }
 
-
 header {
     background-color: #444;
     display: flex;
@@ -16,7 +15,20 @@ header {
 }
 
 .navbar-brand {
-    color: #EEE;
+    color: lightgray !important;
+}
+
+.presentation {
+    background-image: url(../img/hero-bg.jpg);
+    height: 1100px;
+}
+
+h1 {
+    font-size: 6rem !important;
+}
+
+h2 {
+    font-size: 3.5rem !important;
 }
 
 footer {

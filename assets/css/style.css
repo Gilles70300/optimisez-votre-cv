@@ -19,10 +19,16 @@ header {
 }
 
 .presentation {
-    background-image: url(../img/hero-bg.jpg);
     height: 1100px;
+    width: 100%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
+u {
+    text-decoration-style: dotted;
+}
 h1 {
     font-size: 6rem !important;
 }

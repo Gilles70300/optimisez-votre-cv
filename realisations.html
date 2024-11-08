@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
-<body>
+<body class="bg-light">
     <header class="text-uppercase px-5">
         <nav class="navbar">
             <div class="container-fluid">
@@ -48,7 +48,55 @@
     </header>
 
     <main>
-        <p>Réalisations</p>
+        <img src="assets/img/banner.jpg" alt="Bannière bleue avec des lignes blanches">
+
+        <div class="my-5"> 
+            <h2 class="text-uppercase text-center">Portfolio</h1>
+            <p class="text-center">Voici quelques-unes de mes réalisations.</p>
+            <hr class="border border-primary border-3 opacity-75" style="width: 250px; margin: auto;">
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-3 g-4 m-5 text-center">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="assets/img/portfolio/fresh-food.jpg" class="card-img-top" alt="Image de plusieurs sortes de légumes dans une caisse en bois">
+                    <div class="card-body">
+                        <h3 class="card-title fw-bold">Fresh food</h3>
+                        <p class="card-text">Réalisation d'un site avec commande en ligne.</p>
+                        <a href="#" class="btn btn-primary bg-light text-primary fw-bold">Voir</a>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Site réalisé avec PHP et MySQL</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="assets/img/portfolio/restaurant-japonais.jpg" class="card-img-top" alt="Image de plusieurs sushis">
+                    <div class="card-body">
+                        <h3 class="card-title fw-bold">Restaurant Akira</h3>
+                        <p class="card-text">Réalisation d'un site vitrine.</p>
+                        <a href="#" class="btn btn-primary bg-light text-primary fw-bold">Voir</a>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Site réalisé avec WordPress</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="assets/img/portfolio/espace-bien-etre.jpg" class="card-img-top" alt="Image zen de Bouddha et une pyramide de pierres rondes">
+                    <div class="card-body">
+                        <h3 class="card-title fw-bold">Espace bien-être</h3>
+                        <p class="card-text">Réalisation d'un site vitrine pour un praticien de bien-être.</p>
+                        <a href="#" class="btn btn-primary bg-light text-primary fw-bold">Voir</a>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Site réalisé en HTML/CSS</small>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
 
     <footer class="py-3">

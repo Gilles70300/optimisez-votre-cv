@@ -4,6 +4,15 @@
     font-family: 'Nunito Sans';
 }
 
+
+h1 {
+    font-size: 6rem !important;
+}
+
+h2 {
+    font-size: 3.5rem !important;
+}
+
 header {
     background-color: #444;
     display: flex;
@@ -26,15 +35,14 @@ header {
     background-size: cover;
 }
 
-u {
-    text-decoration-style: dotted;
-}
-h1 {
-    font-size: 6rem !important;
+.contact {
+    background: linear-gradient(0deg, rgba(0, 105, 255, 0.5), rgba(0, 105, 255, 0.5)), url(../img/contact-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-h2 {
-    font-size: 3.5rem !important;
+u {
+    text-decoration-style: dotted;
 }
 
 footer {

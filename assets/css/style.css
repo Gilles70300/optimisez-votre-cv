@@ -1,5 +1,27 @@
 @import url('https://fonts.cdnfonts.com/css/nunito-sans');
 
+
+@media screen and (max-width: 480px) {
+    section h1 {
+        font-size: 2rem !important;
+    }
+
+    section h2 {
+        font-size: 1.5rem !important;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    h3 {
+        font-size: 1rem !important;
+        font-weight: 600 !important;
+    }
+
+    p {
+        font-size: 0.75rem !important;
+    }
+}
+
 * {
     font-family: 'Nunito Sans';
     font-weight: 400;
@@ -40,16 +62,6 @@ section h1 {
 
 section h2 {
     font-size: 3.5rem !important;
-}
-
-@media screen and (max-width: 480px) {
-    section h1 {
-        font-size: 3rem !important;
-    }
-
-    section h2 {
-        font-size: 2rem !important;
-    }
 }
 
 .presentation {
